@@ -40,20 +40,27 @@ cd ExoAI-v3
 pip install -r requirements.txt
 
 
+---
 
 
 ▶️ Запуск Streamlit-приложения
+```bash
 streamlit run app.py
 
+---
 
 
 # После этого открой http://localhost:8501 в браузере и загрузи CSV с колонками:
-
+```bash
 time, flux
 
+---
 
 🧠 Обучение модели
+```bash
 python -m src.train
+
+---
 
 
 
