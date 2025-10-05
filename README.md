@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 ---
 
-
+```
 ▶️ Запуск Streamlit-приложения
 ```bash
 streamlit run app.py
@@ -54,9 +54,13 @@ streamlit run app.py
 ```bash
 time, flux
 
----
+```
 
 🧠 Обучение модели
+
+---
+
+
 ```bash
 python -m src.train
 
@@ -64,16 +68,16 @@ python -m src.train
 
 
 
-
+```
 
 Автор: @stingersonx228
 
 
 ---
 
-### 📄 **LICENSE (MIT)**
+### 📄 LICENSE (MIT)
 
-```text
+ctext
 MIT License
 
 Copyright (c) 2025 stingersonx228
