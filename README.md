@@ -47,7 +47,7 @@ streamlit run app.py
 
 
 
-#После этого открой http://localhost:8501 в браузере и загрузи CSV с колонками:
+# После этого открой http://localhost:8501 в браузере и загрузи CSV с колонками:
 
 time, flux
 
