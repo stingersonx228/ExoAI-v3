@@ -1,0 +1,31 @@
+# === Python cache files ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === Virtual environments ===
+.env
+.venv
+env/
+venv/
+
+# === Model files and cache ===
+cache_np/
+*.pth
+*.npy
+*.npz
+*.zip
+
+# === Data ===
+data/
+!data/metadata.csv  # <-- исключение: оставляем metadata.csv, если хочешь
+
+# === Jupyter / logs ===
+*.ipynb_checkpoints/
+logs/
+*.log
+
+# === OS and editor files ===
+.DS_Store
+Thumbs.db
